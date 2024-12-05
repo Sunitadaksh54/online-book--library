@@ -1,0 +1,51 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+
+.book{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+  text-align: center;
+ margin: 20%;
+   
+    
+}
+li{
+    list-style: decimal;
+    margin: 20px;
+}
+.book-list{
+    display: flex;
+}
+
+.input{
+ margin-left:43%;
+ height: 40px;
+ width: 200px;
+ border-radius: 8px;
+}
+
+.books{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+.singlebook{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 50px;
+  
+    
+}
+.singlebook:hover{
+  transform: scale(1.5);
+}
+
